@@ -1,0 +1,41 @@
+body{
+    background: #FCC117;
+}
+
+h1 {
+    color: #BC2A02; 
+}
+
+p {
+    color: darkslateblue;
+}
+
+/* #burgerpic {
+    margin: 0, auto;
+} */
+
+li {
+    color:black;
+    padding: 5px;
+    margin: 5px;
+    background: white;
+  }
+
+  .devoured {
+      color: #8E8A8A; 
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  /* .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+  } */
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
