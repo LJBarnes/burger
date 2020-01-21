@@ -28,4 +28,8 @@ app.listen(PORT, function() {
   console.log("Server listening on: http://localhost:" + PORT);
 });
 
-// LAYOUT IS SHOWING UP, BURGER IS SUBMITTING but it's not displaying the list of burgers/devoured button...
+// Burger is not submitting/text isn't being logged, no data is displaying on page
+// Devoured button is being displayed along with <li>'s but no data, still. 
+// Devoured button clicks but there's nothing to update and it's throwing an error
+// Something must be wrong with my mysql queries or maybe my routes...not sure which.
+// maybe submit button isn't sending to the right place because when i clicked it, that's when I got an error that says something about UPDATE burgers SET devoured = undefined WHERE id = 2

@@ -10,7 +10,7 @@ var router = express.Router();
 router.get("/", function(req, res) {
     burger.selectAll(function(data) {
       var hbsObject = {
-        burger: data
+        burgers: data
       };
       console.log(hbsObject);
     //   below is saying render the response from hbsObject--burger data (defined above) to index
