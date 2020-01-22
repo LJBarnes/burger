@@ -26,9 +26,9 @@ $(function() {
       event.preventDefault();
   
       var newBurger = {
-        name: $("#bu").val().trim(),
-        devoured: $("[name=devoured]:checked").val().trim()
-        // don't think i need the checked part--for radio buttons, I think
+        burger_name: $("#bu").val().trim(),
+        devoured: false
+       // don't think i need the checked part--for radio buttons, I think
       };
   
       // Send the POST request.
@@ -43,6 +43,7 @@ $(function() {
         }
       );
     });
+  });
     
   
 //     $(".delete-cat").on("click", function(event) {

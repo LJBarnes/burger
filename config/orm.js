@@ -47,7 +47,7 @@ var orm = {
                 throw err;
             }
             cb(result);
-            console.log("here:" + JSON.stringify(result));
+            // console.log("here:" + JSON.stringify(result));
         });
     },
 

@@ -28,7 +28,7 @@ app.listen(PORT, function() {
   console.log("Server listening on: http://localhost:" + PORT);
 });
 
-// Burger is not submitting/text isn't being logged, no data is displaying on page
+// Burger is not submitting/text isn't being logged
 // Devoured button is being displayed along with <li>'s but no data, still. 
 // Devoured button clicks but there's nothing to update and it's throwing an error
 // Something must be wrong with my mysql queries or maybe my routes...not sure which.
