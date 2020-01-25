@@ -5,7 +5,7 @@ $(function() {
       var newDevoured = $(this).data("newDevoured");
   
       var newDevouredState = {
-        devoured: newDevoured
+        devoured: 1
       };
   
       // Send the PUT request.
@@ -19,7 +19,9 @@ $(function() {
           location.reload();
         }
       );
+      console.log("update", newDevouredState);
     });
+  
   
     $(".create-form").on("submit", function(event) {
       // Make sure to preventDefault on a submit event.
@@ -27,9 +29,10 @@ $(function() {
   
       var newBurger = {
         burger_name: $("#bu").val().trim(),
-        devoured: false
+        // devoured: false
        // don't think i need the checked part--for radio buttons, I think
       };
+      console.log("click" + newBurger.burger_name);
   
       // Send the POST request.
       $.ajax("/api/burgers", {
