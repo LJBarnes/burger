@@ -1,8 +1,6 @@
 # Eat-Da-Burger
 
 # Description
-![burgergif](https://user-images.githubusercontent.com/53705501/73115616-96236380-3ef6-11ea-88e3-0ec8c5aa04ff.gif)
-
 Eat-Da-Burger is a burger logger created with MySql, Node, Express, Handlebars, an ORM, and follows the MVC design pattern. 
 
 This application is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger name, the app displays the burger ont he left side of the page, waiting to be devoured. 
