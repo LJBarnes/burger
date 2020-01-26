@@ -1,4 +1,5 @@
 # Eat-Da-Burger
+![burger screenshot](https://user-images.githubusercontent.com/53705501/73129501-77cf6d80-3fb3-11ea-8898-a5f99d19467c.png)
 
 # Description
 Eat-Da-Burger is a burger logger created with MySql, Node, Express, Handlebars, an ORM, and follows the MVC design pattern. 
@@ -17,6 +18,6 @@ When the user clicks the "Devour" button, the burger name will move to the right
 7. You can now log your burgers. 
 
 # Link to Deployed Application 
---heroku link here--
+[Eat-Da-Burger](https://infinite-wave-71265.herokuapp.com/)
 
 
